@@ -1,7 +1,7 @@
 password = input("Enter new passowrd: ")
 result = {}
 
-if len(password) >= 8:
+if len(password) >= 7:
     result["length"] = (True)
 else:
     result["length"] = (False)
@@ -20,8 +20,10 @@ for i in password:
 
 result["upper-case"] = (uppercase)
 
-print(result)
+# print(result)
 if all(result):
-    print("Strong Password")
+    print("Great password there!")
+elif len(result == 7):
+    print("Password is not stron")
 else:
-    print("Weak Password")
+    print("Your password is weak!")
