@@ -1,6 +1,3 @@
 clean
-donkey
-We are hungry
-meal prep
-take a shower
-add the car
+Prep meals
+Buy Healthy food and cook it
