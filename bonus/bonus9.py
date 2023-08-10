@@ -24,6 +24,6 @@ result["upper-case"] = (uppercase)
 if all(result):
     print("Great password there!")
 elif len(result == 7):
-    print("Password is not stron")
+    print("Password is not strong")
 else:
     print("Your password is weak!")
