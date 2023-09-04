@@ -1,4 +1,8 @@
 from functions import get_todos, write_todos
+import time
+
+now = time.strftime("%b %d, %Y %H:%M")
+print("It is", now)
          
 while True:
     user_action = input("Type add, show, edit, complete or exit: ")
@@ -16,7 +20,7 @@ while True:
 
     elif user_action.startswith("show"):
 
-        todos = get_todos('files/todos.txt')
+        todos = get_todos('todopy/files/todos.txt')
         
         for index, item in enumerate(todos):
             # item = item.title()
